@@ -1,0 +1,149 @@
+/********************** TAG SELECTORS ********************/
+a {
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;  /* 16px = 100% = 1em */
+  margin: 50px auto 30px auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  color: #D3DEDC;
+  border-style: dotted none none none;
+  border-width: 7px;
+  margin: 0 auto;
+  width: 5%;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/********************** CLASS SELECTORS ********************/
+.bottom-container {
+  background: #66BFBF;
+  margin: 0;
+  padding: 3%;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  margin: auto 15px;
+  font-size: 15px;
+}
+
+.bottom-container a:hover {
+  color: white;
+}
+
+.bottom-container p {
+  margin-top: 30px;
+  color: #EAF6F6;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999E;
+  text-decoration: none;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.contact-me {
+  padding: 5%;
+}
+
+.contact-me p {
+  width: 50%;
+  margin: 35px auto 70px;
+}
+
+.tech-img {
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+}
+
+.description {
+  width: 40%;
+  margin: auto;
+}
+
+.profile {
+  padding: 7%;
+}
+
+.profile-img {
+  width: 15%;
+}
+
+.skills {
+  padding: 5% 5% 1%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-container {
+  background-color: #E4F6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+/********************** ID SELECTORS ********************/
+#cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+#cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#pro {
+  text-decoration: underline;
+}
